@@ -1,5 +1,11 @@
 jQuery(document).ready(function(){
 	
+	// preloader active
+	var overlay = document.getElementById("preloader");
+	window.addEventListener('load', function(){
+	  overlay.style.display = 'none';
+	})
+	
 	//scoll-to-top smoothly
 	jQuery('.scrolltotop').click(function(){
 		jQuery("html,body").animate({
