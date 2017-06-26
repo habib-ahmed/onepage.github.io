@@ -1,0 +1,171 @@
+@media all and (max-width: 1250px) {
+	.sidebar-nav-area {
+		display: none;
+	}
+	.main-menu {
+		padding: 0 100px;
+	}
+	.main-menu .bars {
+	    display: block;
+		padding: 5px;
+    }
+	.logo {
+		display: none;
+	}
+	.logo-sm img {
+		height: 50px;
+	}
+	.headroom--unpinned {
+		transform: translateY(0);
+	}
+    #nav {
+		background-color: rgba(0,0,0,.8);
+        display: none;
+		position: fixed;
+		top: 60px;
+		right: 0;
+		width: 300px;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+		box-sizing: border-box;
+    }
+    #nav li {
+	    float: none;
+    }
+	#nav a {
+		padding: 10px 45px;
+		margin: 0;
+		border-bottom: 0 solid transparent;
+	}
+	#nav a:hover {
+		border-bottom: 0 solid transparent;
+		color: #d0a370;
+	}
+	#nav .current a {
+		border-bottom: 0 solid transparent;
+		color: #d0a370;
+	}
+}
+@media all and (max-width: 992px) {
+	.about-area a {
+		margin: 15px auto 30px;
+	}
+	.call-first {
+		border-left: 0;
+	}
+	.call-third {
+		border-left: 0;
+	}
+	.call-last {
+		border-right: 0;
+	}
+	.element-item {
+		width: 50%;
+	}
+	.hide-sm{
+		display: none;
+	}
+	.single-logo.hide-md {
+		display: none;
+	}
+	.footer-area h4 {
+		padding-top: 30px;
+	}
+	.footer-area p {
+		padding: 20px 0;
+	}
+}
+@media all and (max-width: 768px) {
+	.carousel-top-content {
+		padding: 130px 0;
+	}
+	.carousel-top-content h2 {
+		font-size: 3em;
+	}
+	.call-action {
+		border-left: 0; 
+		padding: 30px 15px;
+	}
+	.project-area .button {
+		font-size: 10px;
+		padding: 12px 8px 10px;
+	}
+	.hide-md{
+		display: none;
+	}
+	.priceLogo-area img {
+	    height: 60px;
+	    margin: auto;
+	    width: 125px !important;
+	}
+	.team-member {
+		margin: 0 80px;
+	}
+	.social-contact ul li {
+		padding: 0 6px;
+	}
+	.social-contact ul li.tell-about span {
+		font-size: 10px;
+		padding-right: 0;
+	}
+	.social-contact ul li.tell-about i {
+		font-size: 15px; 
+		padding-right: 15px;
+	}
+	.social-contact ul li a i {
+		padding: 8px;
+		margin-right: 5px; 
+	}
+	.contactForm-area input:first-child{
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+	.contactForm-area input:nth-child(2) {
+		width: 100%;
+	}
+}
+@media all and (max-width: 480px) {
+	.main-menu {
+		padding: 10px 50px;
+	}
+	.carousel-top-content {
+		padding: 110px 0;
+	}
+	.carousel-top-content h2 {
+		font-size: 2.2em;
+	}
+	.carousel-top-content p {
+		font-size: 1.3em;
+	}
+	.project-area .button {
+		font-size: 5px;
+		padding: 12px 8px 10px;
+	}
+	.carousel-three-content p {
+	    padding: 10px 20px 0;
+	    text-align: justify;
+	    word-spacing: 5px;
+	}
+	.element-item {
+		width: 100%;
+	}
+	.priceLogo-area img {
+	    height: 60px;
+	    margin: auto;
+	    width: 125px !important;
+	}
+	.social-contact ul li.tell-about {
+		display: block;
+		padding-bottom: 15px;
+	}
+	
+}
+
+
+
+
+
+
+
+
