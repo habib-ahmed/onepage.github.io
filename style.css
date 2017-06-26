@@ -298,11 +298,9 @@ section {
 	margin-top: 10px;
 	display: table;
 }
- .about-area video {
-	display: block;
-	margin: auto;
-	max-height: 250px;
-	cursor: pointer;
+iframe {
+    width: 100%;
+    height: 220px;
 }
  /* About-us area end */
 
