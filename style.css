@@ -350,6 +350,7 @@ iframe {
 /* Project area start */
 .project-area {
 	padding: 50px 0;
+	overflow: hidden;
 }
 .project-area h2 {
 	font-size: 30px;
@@ -396,16 +397,25 @@ iframe {
     border-radius: 0 20px 20px 0;
 	border-right: 0 none;
 }
-.element-item {
-    position: relative;
-    border: 15px solid #fff;
-	box-sizing: border-box;
-    float: left;
-    width: 25%;
+
+.grid {
+    display: block;
     overflow: hidden;
 }
+.element-item {
+    border: 15px solid #fff;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+}
 .element-item img {
-	width: 100%;
+    display: block;
+    height: 170px;
+    width: 100%;
 }
 .isotop-overlay {
     position: absolute;
